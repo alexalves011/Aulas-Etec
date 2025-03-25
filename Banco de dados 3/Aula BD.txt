@@ -1,0 +1,9 @@
+SELECT * FROM `produto` WHERE unid_prod LIKE "K%%";
+
+
+SELECT * FROM vendedor WHERE nome_vend NOT LIKE 'A%%%%%%%%';
+
+SELECT * FROM `vendedor` WHERE faixa_comiss LIKE "A" OR faixa_comiss LIKE "B";
+
+SELECT * FROM `vendedor`WHERE sal_fixo GROUP BY nome_vend ASC;
+
